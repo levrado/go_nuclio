@@ -28,6 +28,6 @@ func Handler(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 	}
 
 	return nuclio.Response{
-		StatusCode: 201,
+		StatusCode: 202,
 	}, nil
 }
