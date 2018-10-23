@@ -1,0 +1,3 @@
+spec:
+  runtime: "golang"
+  handler: "main:Handlee"
