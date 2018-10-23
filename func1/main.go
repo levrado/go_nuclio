@@ -1,5 +1,10 @@
 package main
 
+import (
+  "github.com/nuclio/nuclio-sdk-go"
+  "github.com/artonge/go-csv-tag"
+)
+
 type Demo struct {
 	Name string  `csv:"name"`
 	ID   int     `csv:"ID"`
