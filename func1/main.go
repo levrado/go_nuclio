@@ -6,7 +6,7 @@ type Demo struct {
 	Num  float64 `csv:"number"`
 }
 
-func Handler(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
+func Handlee(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 	tab := []Demo{
 		Demo{
 			Name: "some name",
